@@ -523,6 +523,7 @@ dependencies = [
     { name = "langchain" },
     { name = "langchain-google-genai" },
     { name = "python-dotenv" },
+    { name = "truststore" },
 ]
 
 [package.metadata]
@@ -530,6 +531,7 @@ requires-dist = [
     { name = "langchain", specifier = ">=1.4.9" },
     { name = "langchain-google-genai", specifier = ">=4.4.3" },
     { name = "python-dotenv", specifier = ">=1.2.4" },
+    { name = "truststore", specifier = ">=0.10.5" },
 ]
 
 [[package]]
