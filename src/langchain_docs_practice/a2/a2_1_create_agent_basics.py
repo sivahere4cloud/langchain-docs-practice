@@ -19,6 +19,7 @@ def get_refund_policy() -> str:
     """Return the company refund policy."""
     return "Refunds are allowed within 30 days of delivery, if the item is unused."
 
+
 agent = create_agent(
     model=MODEL,
     tools=[get_order_status, get_refund_policy],
@@ -27,6 +28,7 @@ agent = create_agent(
         "Use tools for facts about orders and policies. Be concise."
     ),
     name="Customer Support Agent",
+
 )    
 
 
